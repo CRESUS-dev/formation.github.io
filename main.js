@@ -8,7 +8,7 @@ b2.addEventListener("click", resizeWindowBy);
 b3.addEventListener("click", resizeWindowTo);
 
 function openwindow() {
-    fenetre = open("", "", winSize);
+    fenetre = open("https://www.codepen.io", "", winSize);
 }
 
 function resizeWindowBy() {
